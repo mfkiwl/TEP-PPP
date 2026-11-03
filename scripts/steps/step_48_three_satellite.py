@@ -2316,7 +2316,7 @@ def main():
                                 kres_abs_spp_s56 if kres_abs_spp_s56 is not None
                                 else kres_abs_spp)
                         elif kres_abs_pg is not None:
-                            tep_clk = local + kres_abs_pg
+                            tep_clk = (local + kres_abs_pg if kres_abs_pg is not None else None)
                             tep_clk_phase = local + (
                                 kres_abs_pg_s56 if kres_abs_pg_s56 is not None
                                 else kres_abs_pg)
@@ -2494,16 +2494,16 @@ def main():
                                    "tep_blind_phase": tep_clk_phase,
                                    "tep_blind_phase_integrity": phase_integ_clk,
                                    "tep_blind_phase_s56": tep_clk_phase,
-                                   "tep_blind_phase_abs": local + kres_abs_pg,
-                                   "tep_blind_phase_abs_s56": local + kres_abs_pg_s56,
-                                   "tep_blind_phase_abs_wide": local + kres_abs_wide_pg,
-                                   "tep_blind_phase_abs_wide_s56": local + kres_abs_wide_pg_s56,
+                                   "tep_blind_phase_abs": (local + kres_abs_pg if kres_abs_pg is not None else None),
+                                   "tep_blind_phase_abs_s56": (local + kres_abs_pg_s56 if kres_abs_pg_s56 is not None else None),
+                                   "tep_blind_phase_abs_wide": (local + kres_abs_wide_pg if kres_abs_wide_pg is not None else None),
+                                   "tep_blind_phase_abs_wide_s56": (local + kres_abs_wide_pg_s56 if kres_abs_wide_pg_s56 is not None else None),
                                    "tep_blind_phase_pa": tep_clk_phase_pa,
                                    "tep_blind_phase_pa_s56": tep_clk_phase_s56_pa,
                                    "tep_blind_phase_abs_precise": tep_clk_abs_precise,
                                    "tep_blind_phase_abs_precise_s56": tep_clk_abs_precise_s56,
                                    "tep_blind_phase_wide": local + anchor_resid + kres_wide_pg,
-                                   "tep_blind_phase_wide_s56": local + anchor_resid + kres_wide_pg_s56,
+                                   "tep_blind_phase_wide_s56": (local + anchor_resid + kres_wide_pg_s56 if kres_wide_pg_s56 is not None else None),
                                    "tep_blind_blend": blend_clk,
                                    "tep_blind_blend_wide": blend_wide_clk,
                                    "tep_blind_ar1_phase": tep_ar1_clk,

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-02T01:07:44.483304+00:00",
+  "generated": "2026-11-03T00:41:15.524545+00:00",
   "project": "TEP-PPP",
-  "version": "0.5",
+  "version": "0.6",
   "codename": "Pune",
   "files": {
     "results/figures/step_06_falsification.png": {
@@ -803,6 +803,11 @@
       "sha256": "7f55fdd8baaae338f0a011417289e4f0e14b628db3a0e1c14eccbd046630050d",
       "size_bytes": 284942,
       "modified": "2026-11-01T22:53:00"
+    },
+    "results/outputs/step_48_three_satellite_current.json": {
+      "sha256": "42517c70e6ef7c2db480d2695baf8289db35498e3dc9268049e6a95c3a2fa075",
+      "size_bytes": 613670,
+      "modified": "2026-11-03T00:36:26"
     },
     "results/outputs/step_48_three_satellite_precise.json": {
       "sha256": "682bff846461a7734147989e232a01893016c8c1e0970a3c6426f260adc24385",

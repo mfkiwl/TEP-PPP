@@ -159,6 +159,7 @@
   "results/outputs/step_45b_t4_forensic.json": "b4fe2939af6fae6f795fc46f06a7910c69320651449eafa051b5a2131dcec09d",
   "results/outputs/step_47_continuous_azimuth_t2.json": "b951f3ba368cc1484ed9ac8d282bb788270cece15d3120149310c9a120c2ec9f",
   "results/outputs/step_48_three_satellite.json": "7f55fdd8baaae338f0a011417289e4f0e14b628db3a0e1c14eccbd046630050d",
+  "results/outputs/step_48_three_satellite_current.json": "42517c70e6ef7c2db480d2695baf8289db35498e3dc9268049e6a95c3a2fa075",
   "results/outputs/step_48_three_satellite_precise.json": "682bff846461a7734147989e232a01893016c8c1e0970a3c6426f260adc24385",
   "results/outputs/step_48b_gap_sweep.json": "380acc0a65f5f476817e76d1b8b6443c294a3c67c9d1a7509ef2187776d9c7cd",
   "results/outputs/step_50_lambda_meta_analysis.json": "cdad2f0bf8e5d2193ab42f79df6179e7de4aff4d5203a826d782b9dfde5c68ee",

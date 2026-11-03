@@ -15,8 +15,8 @@ abstract: |
 
   Operationally, a phase-resolved TEP clock prior requires no new hardware and under 1 ms per epoch on existing CORS/RTK networks: (i) for timing holdover, it reduces sky-outage clock-residual error by 38.1% at 1 h (24.7 ns) and 55.7% at 8 h (65.6 ns), outperforming datasheet holdover of a ~USD 300 OCXO beyond 30 min and a ~USD 2,000 Rubidium standard beyond 2 h; (ii) for outage bridging, it reduces clock RMS by 5.0–18.9% over 90 EUREF days and beats every deployable baseline on held-out 2025 across Europe, North America, and East Asia; and (iii) for degraded-geometry positioning, it restores k = 3 availability (+29.6% 3-D carrier-phase RMSE reduction), improves k = 4–5 3-D RMS by +14.5–48.0%, localises co-located GNSS anchors to 339 km (Matera) and 744 km (Tahiti) and 43 live NTRIP stations to 191.8 km median error, and achieves +35.84% mean two-hour holdover gain across 185 walk-forward windows on a 68-station live observatory (116 of 120 SHA-256-sealed ex-ante envelopes positive, +29.01% mean on overlapping sliding windows; zero-target-overlap clean-origin forward component +2.57%, p = 1.8e-5).
 license: CC-BY-4.0
-version: v0.5 (Pune)
-date-released: 2026-11-02
+version: v0.6 (Pune)
+date-released: 2026-11-03
 date-published: 2026-10-29
 keywords:
   - Temporal Equivalence Principle
@@ -54,7 +54,7 @@ doi: "10.5281/zenodo.23704945"
 
 preferred-citation:
   type: article
-  title: "Temporal Equivalence Principle: Phase-Resolved Spatial Clock Priors for GNSS Outage Bridging (Pune v0.5)"
+  title: "Temporal Equivalence Principle: Phase-Resolved Spatial Clock Priors for GNSS Outage Bridging (Pune v0.6)"
   authors:
     - family-names: Smawfield
       given-names: Matthew Lukin

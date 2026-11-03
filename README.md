@@ -5,8 +5,8 @@
 ![Temporal Equivalence Principle: Phase-Resolved Spatial Clock Priors for GNSS Outage Bridging](site/public/image.webp)
 
 **Author:** Matthew Lukin Smawfield  
-**Version:** v0.5 (Pune)  
-**First published:** 29 October 2026 · **Last updated:** 2 November 2026  
+**Version:** v0.6 (Pune)  
+**First published:** 29 October 2026 · **Last updated:** 3 November 2026  
 **Status:** Preprint  
 **DOI:** [10.5281/zenodo.23704945](https://doi.org/10.5281/zenodo.23704945)  
 **Website:** [https://mlsmawfield.com/tep/ppp/](https://mlsmawfield.com/tep/ppp/)  
@@ -156,7 +156,7 @@ cd site && npm ci && npm run build
   year={2026},
   doi={10.5281/zenodo.23704945},
   url={https://doi.org/10.5281/zenodo.23704945},
-  note={Preprint v0.5 (Pune)}
+  note={Preprint v0.6 (Pune)}
 }
 ```
 
